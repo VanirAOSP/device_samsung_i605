@@ -19,8 +19,7 @@
 
 -include device/samsung/t0ltecdma/BoardCommonConfig.mk
 
-# assert
-TARGET_OTA_ASSERT_DEVICE := t0ltevzw,i605,SCH-I605
+TARGET_OTA_ASSERT_SKIP = true
 
 # inherit from the proprietary version
 -include vendor/samsung/t0ltecdma/BoardConfigVendor.mk
