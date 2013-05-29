@@ -23,3 +23,5 @@ TARGET_OTA_ASSERT_SKIP = true
 
 # inherit from the proprietary version
 -include vendor/samsung/t0ltecdma/BoardConfigVendor.mk
+
+TARGET_USE_PREBUILT_KERNEL := true 
